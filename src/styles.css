@@ -1,0 +1,33 @@
+html {
+    background: mistyrose;
+}
+
+.container > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 60vh;
+    /* min-width: auto; */
+    /* align-self: center; */
+    align-items: flex-start;
+}
+
+.dash {
+    flex-basis: 100%;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    grid-template-rows: 20vw 20vw;
+    justify-content: center;
+    justify-items: stretch;
+}
+
+/* .dash div {
+    height: 100%;
+    
+} */
+
+.bar {
+    /* grid-area: 1 / 1 / span 2 / span 4; */
+    display: grid;
+
+}
