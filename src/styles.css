@@ -13,12 +13,13 @@ html {
 }
 
 .dash {
-    flex-basis: 100%;
+    flex-basis: 60%;
     display: grid;
     grid-template-columns: 20vw 20vw 20vw 20vw;
     grid-template-rows: 20vw 20vw;
     justify-content: center;
     justify-items: stretch;
+    gap: 10px 10px;
 }
 
 /* .dash div {
@@ -29,5 +30,33 @@ html {
 .bar {
     /* grid-area: 1 / 1 / span 2 / span 4; */
     display: grid;
+    grid-row: span 3;
+    background-color: mintcream;
+    text-align: center;
+
+}
+
+.visit {
+    grid-area: 2 / 2 / span 1 / span 3;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.review {
+    grid-area: 1/2;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+
+}
+
+.avg {
+    background-color: lightskyblue;
+    text-align: center;
+
+}
+
+.analysis {
+    background-color:lavender ;
+    text-align: center;
 
 }
